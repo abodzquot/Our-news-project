@@ -1,0 +1,491 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "main", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+     font-family: "Open Sans",
+     sans-serif;
+     color: #444;
+}
+.head {
+    background-color: #003d4b;
+    padding: 5px 0;
+}
+
+a {
+    color: #5f6dec;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #29e723;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito", sans-serif;
+}
+p
+{
+    text-align: center;
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.container {
+    max-width: 1340px !important;
+}
+
+.navbar {
+    direction: rtl;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 12px;
+    transition: all 0.4s ease-in-out;
+    margin-left: 3px;
+    text-align: right;
+    color: black !important;
+}
+.carousel-indicators {
+    margin: 0;
+    right: 25px;
+    left: auto;
+    bottom: 47px;
+    position: absolute;
+}
+
+.carousel-item {
+    background-color: #e2f0f2;
+    border-bottom: 2px solid #a3dce8;
+    border-radius: 5px;
+    padding-bottom: 0px;
+}
+
+.carousel-item img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    position: relative;
+    transition: all 0.4s linear;
+
+}
+.active {
+    background-color: #77b6c4 !important;
+}
+
+/*section-2: hover*/
+.carousel-item:hover figure img {
+    transform: scale(1.08, 1.08);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Card
+--------------------------------------------------------------*/
+.card_1
+{
+    margin: auto;
+}
+.card .btn-secondary
+{
+    display: block;
+}
+.card .card-title
+{
+    margin-bottom: -0.40rem;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+}
+.card-text:last-child
+{
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid #919396;
+    margin-bottom: 25px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+
+.serchs {
+    color: #0192AD;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.serchs a h4 {
+    color: #0192AD;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.card-text {
+    color: #020101;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-weight: 700;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# informations
+--------------------------------------------------------------*/
+.info h2
+{
+   color: white;
+   background-color: red;
+   text-align: end;
+}
+.info p
+{
+    width: auto;
+    padding: 5px;
+    color: #000;
+    font: 1.5em arial;
+    line-height: 1.7em;
+    text-align: right;
+    background-color: #EEE;
+}
+.card_3 .co_7
+{
+    text-align: right;
+    background-color: red;
+    color: white;
+}
+.card_3 .co_7 h2
+{
+   margin-right: 19px;
+}
+/*--------------------------------------------------------------
+# left section-1
+--------------------------------------------------------------*/
+.section-1
+{
+    direction: rtl;
+}
+.item-text {
+    padding: 15px 20px;
+    background-color: #e2f0f2;
+    position: relative;
+}
+
+.item-text h3 {
+    color: #008aa5;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "main", sans-serif;
+}
+
+.item-text h2 {
+    color: #0A404F;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 37px;
+    height: 72px;
+    transition: all 0.4s linear;
+}
+
+.item-text p {
+    display: flex;
+    text-align: left;
+    color: #b4b2b4;
+    font-size: 14px;
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+
+.media1 {
+    direction: rtl;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px #a0dbe7 solid;
+    margin-bottom: 10px;
+}
+
+.media1 figure {
+    position: relative;
+    width: 260px;
+    height: 170px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.media1 img {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-cat {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 6px 10px;
+    background: #a0dbe7;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #0a0607;
+}
+
+.media-body h3 {
+    color: #0a0607;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    height: 90px;
+    overflow: hidden;
+    margin-bottom: 29px;
+    transition: all 0.4s ease;
+}
+
+.media-body1 p {
+    display: flex;
+    text-align: left;
+    color: #b4b2b4;
+    font-size: 14px;
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact
+{
+    direction: rtl;
+}
+.contact .info {
+    width: 100%;
+    background: #fff;
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #34b7a7;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #effbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222222;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+.contact .info .email,
+.contact .info .phone {
+    margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+    background: #34b7a7;
+    color: #fff;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    background: #fff;
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+    border-color: #34b7a7;
+}
+
+.contact .php-email-form input {
+    height: 44px;
+}
+
+.contact .php-email-form textarea {
+    padding: 10px 12px;
+}
+
+.contact .php-email-form button[type="submit"] {
+    background: #34b7a7;
+    border: 0;
+    padding: 10px 30px 12px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+    background: #3dc8b7;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*--------------------------------------------------------------
+# copyright
+--------------------------------------------------------------*/
+footer
+{
+    direction: rtl;
+}
+.footer-menu li a {
+    display: inline-block !important;
+    width: 330px;
+}
+
+.footer-menu li {
+    display: inline-block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
